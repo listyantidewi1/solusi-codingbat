@@ -14,4 +14,6 @@ common_end([1, 2, 3], [1, 3]) → True
 
 def common_end(a, b):
     # jika elemen pertama array a sama dengan elemen pertama array b -> a[0] == b[0]
+    # jika elemen terakhir array a sama dengan elemen terakhir array b -> a[-1] == b[-1]
+    # jika elemen pertama array a sama dengan elemen pertama array b ATAU jika elemen terakhir array a sama dengan elemen terakhir array b
     return a[0] == b[0] or a[-1] == b[-1]
