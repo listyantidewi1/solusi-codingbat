@@ -19,3 +19,6 @@ def middle_way(a, b):
     # return [] artinya mengembalikan sebuah array baru
     # return [a[1], b[1]] artinya mengembalikan sebuah array baru berisi elemen tengah array a dan b
     return [a[1], b[1]]
+    # return [] #membuat array kosong
+    # return ['a'] #membuat array baru dengan 1 elemen, yaitu huruf a
+    # return [a[1]] #membuat array baru dengan mengambil nilai dari array a indeks ke 1
