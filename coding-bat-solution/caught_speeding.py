@@ -10,10 +10,11 @@ Anda menyetir terlalu cepat, dan seorang polisi menghentikan anda. tulis kode pr
 
 def caught_speeding(speed, is_birthday):
 
-    if is_birthday:
+    if is_birthday:  # jika is_birthday = True, maks speed -= 5
         speed -= 5
 
-    if speed <= 60:
+    if speed <= 60:  # jika kecepatan <=60 maka return False (0)
         return 0
 
+    # return true (1) jika kecepatan di antara 61 dan 80
     return 1 if 61 <= speed <= 80 else 2

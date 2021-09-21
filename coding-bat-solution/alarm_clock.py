@@ -19,9 +19,11 @@ alarm_clock(1, True) → '10:00'
 
 
 def alarm_clock(day, vacation):
+    # week_day didefinisikan sebagai hari yang tidak termasuk di hari pertama (0 / minggu) dan terakhir (6 / sabtu)
     week_day = day not in (0, 6)
 
-    if vacation:
-        return '10:00' if week_day else 'off'
+    if vacation:  # jika vacation atau liburan = true
+        return '10:00' if week_day else 'off'  # alarm = 10:00
 
+    # selain itu alarm 7:00 jika week_day, selain weekday = 10:00
     return '7:00' if week_day else '10:00'
