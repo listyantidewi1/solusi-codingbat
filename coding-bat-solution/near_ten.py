@@ -12,5 +12,7 @@ near_ten(19) → True
 
 
 def near_ten(num):
+    # modulo 10 (%10) untuk mencari sisa pembagian dgn 10
+    # sisa bagi disimpan di num_mod_10
     num_mod_10 = num % 10
     return num_mod_10 <= 2 or num_mod_10 >= 8

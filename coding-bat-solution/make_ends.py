@@ -11,6 +11,7 @@ make_ends([7, 4, 6, 2]) → [7, 2]
 
 """
 
+
 def make_ends(nums):
     # [nums[0], nums[1]] -> mengambil nilai pertama dan nilai terakhir dari array nums dan memasukkannya ke dalam sebuah array baru
     return [nums[0], nums[-1]]
