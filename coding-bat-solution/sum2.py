@@ -5,7 +5,9 @@ sum2([1, 1]) → 2
 sum2([1, 1, 1, 1]) → 2
 
 Diberikan sebuah array integer, kembalikan jummlah dari dua elemen pertama dari array tersebut. Jika panjang array kurang dari 2, maka jumlahkan elemen seadanya. Return 0 jika array memiliki panjang = 0 / tidak ada isinya
-
+sum2([1, 2, 3]) → 3
+sum2([1, 1]) → 2
+sum2([1, 1, 1, 1]) → 2
 """
 
 
