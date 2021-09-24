@@ -19,4 +19,11 @@ combo_string('aaa', 'b') → 'baaab'
 def combo_string(a, b):
     # kembalikan b + a + b jika panjang a lebih dari panjang b
     # kembalikan a + b + a jika panjang b lebih dari panjang a
+    panjang_a = len(a)
+    panjang_b = len(b)
+    if panjang_a > panjang_b:
+        return b + a + b
+    else:
+        return a + b + a
+
     return b + a + b if len(a) > len(b) else a + b + a
